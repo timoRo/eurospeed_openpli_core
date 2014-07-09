@@ -1,0 +1,11 @@
+#@TYPE: Machine
+#@NAME: GoldenInterstar XpeedLX1-Plus
+#@DESCRIPTION: Machine configuration for the XpeedLX1-Plus
+
+CHIPSET = "bcm7362"
+TARGET_FPU = "soft"
+
+require conf/machine/include/km3000.inc
+
+
+
